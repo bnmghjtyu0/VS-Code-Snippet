@@ -54,24 +54,49 @@
   // 迴圈
   "for": {
     "prefix": "js-迴圈-for",
-    "body": ["var i;", "for (i = 0; i < 10; i++) {", "  // 做某件事", "}"],
+    "body": [
+      "var i;",
+      "for (i = 0; i < 10; i++) {",
+      "  // 做某件事",
+      "}"
+    ],
     "description": ""
   },
   "forEach": {
     "prefix": "js-迴圈-forEach",
-    "body": ["array.forEach(element => {", "  ", "});"],
+    "body": [
+      "array.forEach(element => {",
+      "  ",
+      "});"
+    ],
     "description": "forEach"
   },
   // console
   "console log": {
     "prefix": "js-console-log",
-    "body": ["console.log('$1');", "$2"],
+    "body": [
+      "console.log('$1');",
+      "$2"
+    ],
     "description": "Log output to console"
   },
   "console info": {
     "prefix": "js-console-info",
-    "body": ["console.info('$1');", "$2"],
+    "body": [
+      "console.info('$1');",
+      "$2"
+    ],
     "description": "Log output to console"
+  },
+  // 陣列
+  "map": {
+    "prefix": "js-Array-map",
+    "body": [
+      "Array.map( o => {",
+      "  return o",
+      "})"
+    ],
+    "description": ""
   },
   // 物件參數
   "objectFn": {
@@ -87,6 +112,48 @@
       "}",
       "web(config);",
       ""
+    ],
+    "description": ""
+  },
+  // DOM取得
+  "getID": {
+    "prefix": "js-DOM 取得-id",
+    "body": [
+      "var getId  = document.getElementById('');"
+    ],
+    "description": ""
+  },
+  "getClass": {
+    "prefix": "js-DOM 取得-class",
+    "body": [
+      "var getClass  = document.getElementsByClassName('.')",
+      ""
+    ],
+    "description": ""
+  },
+  "getAny": {
+    "prefix": "js-DOM 取得-any",
+    "body": [
+      "var getAny = document.querySelector('');"
+    ],
+    "description": ""
+  },
+  "getAll": {
+    "prefix": "js-DOM 取得-all",
+    "body": [
+      "var getAll = [...document.querySelectorAll('')]"
+    ],
+    "description": ""
+  },
+  // DOM新增
+  // 事件
+  "click": {
+    "prefix": "js-事件-click",
+    "body": [
+      "function fn(e) {",
+      "  console.log(e);",
+      "}",
+      "DOM.addEventListener(\"click\", fn, false);"
     ],
     "description": ""
   }
