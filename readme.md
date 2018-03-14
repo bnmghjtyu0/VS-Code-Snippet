@@ -1,8 +1,8 @@
 <a href="https://pawelgrzybek.com/snippet-generator/">snippet 產生器</a>
 
 ###### 參考來源
-http://idoc.hexschool.com/index.html
-https://ithelp.ithome.com.tw/users/20065504/ironman/1259
+- http://idoc.hexschool.com/index.html
+- https://ithelp.ithome.com.tw/users/20065504/ironman/1259
 #### snippet 導覽
 
 ###### DOM
