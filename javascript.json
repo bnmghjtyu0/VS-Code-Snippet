@@ -1,0 +1,91 @@
+{
+  // 判斷式
+  "if": {
+    "prefix": "js-判斷式-if",
+    "body": [
+      "var buy = \"十顆包子\";",
+      "",
+      "if( 看到賣西瓜的 ) {",
+      "  buy = \"一個包子\";",
+      "}"
+    ],
+    "description": ""
+  },
+  "switch": {
+    "prefix": "js-判斷式-switch",
+    "body": [
+      "var month = 1;",
+      "switch ( month ){",
+      "  case 1:",
+      "  case 2:",
+      "  case 3:",
+      "    console.log('春天');",
+      "    break;",
+      "  case 4:",
+      "  case 5:",
+      "  case 6:",
+      "    console.log('夏天');",
+      "    break;",
+      "  case 7:",
+      "  case 8:",
+      "  case 9:",
+      "    console.log('秋天');",
+      "    break;",
+      "  case 10:",
+      "  case 11:",
+      "  case 12:",
+      "    console.log('冬天');",
+      "    break;",
+      "  default:",
+      "    console.log('月份錯誤');",
+      "}"
+    ],
+    "description": "forEach"
+  },
+  "三元": {
+    "prefix": "js-判斷式-三元",
+    "body": [
+      "var age = 5;",
+      "var status = (age >= 18) ? '成人' : '小孩';",
+      "console.log(status)"
+    ],
+    "description": ""
+  },
+  // 迴圈
+  "for": {
+    "prefix": "js-迴圈-for",
+    "body": [
+      "var i;",
+      "for (i = 0; i < 10; i++) {",
+      "  // 做某件事",
+      "}"
+    ],
+    "description": ""
+  },
+  "forEach": {
+    "prefix": "js-迴圈-forEach",
+    "body": [
+      "array.forEach(element => {",
+      "  ",
+      "});"
+    ],
+    "description": "forEach"
+  },
+  // console
+  "console log": {
+    "prefix": "js-console-log",
+    "body": [
+      "console.log('$1');",
+      "$2"
+    ],
+    "description": "Log output to console"
+  },
+  "console info": {
+    "prefix": "js-console-info",
+    "body": [
+      "console.info('$1');",
+      "$2"
+    ],
+    "description": "Log output to console"
+  }
+}
