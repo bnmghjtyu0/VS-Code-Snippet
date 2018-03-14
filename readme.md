@@ -11,6 +11,6 @@ js-迴圈-forEach
 js-迴圈-for
 js-console-info
 js-console-log
-js-objectFn
+js-物件-objectFn
 
 ```
