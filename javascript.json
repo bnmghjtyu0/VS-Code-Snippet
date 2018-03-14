@@ -43,7 +43,7 @@
     "description": "forEach"
   },
   "三元": {
-    "prefix": "js-判斷式-三元",
+    "prefix": "js-判斷式-三元判斷式",
     "body": [
       "var age = 5;",
       "var status = (age >= 18) ? '成人' : '小孩';",
