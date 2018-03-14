@@ -54,38 +54,40 @@
   // 迴圈
   "for": {
     "prefix": "js-迴圈-for",
-    "body": [
-      "var i;",
-      "for (i = 0; i < 10; i++) {",
-      "  // 做某件事",
-      "}"
-    ],
+    "body": ["var i;", "for (i = 0; i < 10; i++) {", "  // 做某件事", "}"],
     "description": ""
   },
   "forEach": {
     "prefix": "js-迴圈-forEach",
-    "body": [
-      "array.forEach(element => {",
-      "  ",
-      "});"
-    ],
+    "body": ["array.forEach(element => {", "  ", "});"],
     "description": "forEach"
   },
   // console
   "console log": {
     "prefix": "js-console-log",
-    "body": [
-      "console.log('$1');",
-      "$2"
-    ],
+    "body": ["console.log('$1');", "$2"],
     "description": "Log output to console"
   },
   "console info": {
     "prefix": "js-console-info",
-    "body": [
-      "console.info('$1');",
-      "$2"
-    ],
+    "body": ["console.info('$1');", "$2"],
     "description": "Log output to console"
+  },
+  // 物件參數
+  "objectFn": {
+    "prefix": "js-物件-objectFn",
+    "body": [
+      "var config = {",
+      "  ip: \"192.168.6.12\",",
+      "  DNS: \"255.255.255.0\"",
+      "};",
+      "function web(config) {",
+      "  console.info(config.ip);",
+      "  console.info(config.DNS);",
+      "}",
+      "web(config);",
+      ""
+    ],
+    "description": ""
   }
 }

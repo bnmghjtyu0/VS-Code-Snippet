@@ -1,13 +1,16 @@
 #### snippet 導覽
 
+<a href="https://pawelgrzybek.com/snippet-generator/">snippet 產生器</a>
+
 ```javascript
 
-1  js-判斷式-if
-2  js-判斷式-switch
-3  js-判斷式-三元判斷式
-4  js-迴圈-forEach
-5  js-迴圈-for
-6  js-console-info
-7  js-console-log
+js-判斷式-if
+js-判斷式-switch
+js-判斷式-三元判斷式
+js-迴圈-forEach
+js-迴圈-for
+js-console-info
+js-console-log
+js-objectFn
 
 ```
